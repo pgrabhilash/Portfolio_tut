@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
+</head>
+<body class="relative">
+    <header class="fixed z-10 right-3 top-[150px]">
+        <ul class="space-y-4 bg-violet-500 rounded-lg py-10 px-3">
+            <li class="lists"><a href="#home"><i class="fa-solid fa-house"></i></a></li>  
+            <li class="lists"><a href="#about"><i class="fa-solid fa-user"></i></a></li>
+            <li class="lists"><a href="#projects"><i class="fa-solid fa-code"></i></a></li>
+            <li class="lists"><a href="#testimonial"><i class="fa-solid fa-comment"></i></a></li>
+            <li class="lists"><a href="#contact"><i class="fa-solid fa-paper-plane"></i></a></li>
+        </ul>
+    </header>
+    <!-- Home section -->
+     <section class="home flex justify-between items-center h-screen" id="home">
+        <div class="left px-20 space-y-3 w-2/4">
+           <h3 class="text-4xl uppercase">Hi There !</h3>
+           <h1 class="text-7xl uppercase tracking-wide">I'm <span class="text-violet-600 title">Abhilash</span> </h1>
+           <p class="uppercase font-semibold"><mark class="px-1 bg-violet-400">web developer / app developer / freelancer</mark></p>
+           <p class="text-sm text-justify hyphens-auto pt-4">
+           I'm highly skilled web and app developer, I specialize in crafting dynamic and user-centric applications using cutting-edge technologies. My core expertise lies in React.js, Next.js, React Native, and Node.js. I am adept at building robust front-end interfaces, efficient server-side logic, and seamless cross-platform mobile experiences. With a focus on clean code, performance optimization, and best practices, I deliver high-quality solutions that meet the evolving needs of modern digital products.
+           </p>
+           <div class="social_icons flex space-x-6">
+            <p class="sicons"><i class="fa-brands fa-x-twitter"></i></p>
+            <p class="sicons"><i class="fa-brands fa-linkedin"></i></p>
+            <p class="sicons"><i class="fa-brands fa-github"></i></p>
+           </div>
+         <a href="#about">  <button class="bg-violet-500 px-10 py-3 rounded-lg text-lg font-semibold text-white mt-6">More About Me</button> </a>
+        </div>
+        <div class="right mb-1">
+            <img src="img/person.jpg" alt="Abhilash" class="w-[750px] h-screen">
+        </div>
+     </section>
+
+     <!-- sidebar -->
+      <main class="flex bg-gray-200 h-full relative">
+      <sidebar  class="sticky top-0">
+        <div class="bg-violet-500 w-[240px] h-screen sticky top-0 z-20">
+            <div>
+            <img src="img/person.jpg" alt="Abhilash" class="w-[250px] h-auto">
+            <nav class="mt-10">
+                <ul>
+                    <li class="sidebar">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="sidebar">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="sidebar">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="sidebar">
+                        <a href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="sidebar">
+                        <a href="#contact">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+      </sidebar>
+
+      <section class="w-[80%] m-auto" >
+          <!-- About section -->
+        <div class="container w-[80%] m-auto mt-5" id="about">
+          <div class="border-dotted border-black border-4 px-10 py-5">
+            <h1 class="text-7xl uppercase text-center">about me</h1>
+        </div>
+        <div class="content py-10">
+            <p class="text-3xl">I'm <span class="bold">Abhilash</span>, Web Developer / App Developer</p>
+            <div class="py-5 relative bg-gray-100 rounded-lg px-5 mt-6 shadow-lg">
+                <div class="tag">About</div>
+                <ul>
+                    <li class="about-li">Dedicated web and app developer with a passion for crafting innovative digital solutions.</li>
+                    <li class="about-li">Proficient in React.js, Next.js, React Native, and Node.js to build high-performance applications.</li>
+                    <li class="about-li"> Committed to delivering exceptional user experiences through clean code and efficient development practices.</li>
+                </ul>
+            </div>
+            <div class="skills relative">
+              <div class="icons flex flex-wrap gap-4 shadow-lg bg-gray-100 rounded-lg p-5 mt-6">
+                <div class="tag">Skills</div>
+                  <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" class="w-[80px]">
+                  <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="" class="w-[80px]">
+                  <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" class="w-[80px]">
+                  <img src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" alt="" class="w-[80px]">
+                  <img src="https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000" alt="" class="w-[80px]">
+                  <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="" class="w-[80px]">
+                  <img src="https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" alt="" class="w-[80px]">
+                  <img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt="" class="w-[80px]">
+                  <img src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" alt="" class="w-[80px]">
+              </div>
+            </div>
+            <div class="experince relative">
+                <div class="shadow-lg bg-gray-100 rounded-lg p-5 mt-6">
+                    <div class="tag">Experience</div>
+                   <div class="area bg-gray-50 rounded-xl p-3 my-4 shadow-md">
+                     <h4 class="company_name text-lg">Xyz Pvt. Ltd.</h4>
+                     <h2 class="position bold text-2xl bg-violet-700 inline-block px-1 text-white">Software Developer</h2>
+                     <p class="duration"><span>05 Mar 2023</span> - <span>13 Oct 2024</span></p>
+                     <hr>
+                     <div class="mt-3"> 
+                        <p>Developed a new feature for our company's flagship product, resulting in a 15% increase in user engagement.</p>
+                        <p>Led a team of developers to successfully migrate our legacy system to a cloud-based architecture, saving the company $50,000 per year.</p>
+                        <p>Implemented a new machine learning algorithm that improved our product's accuracy by 10%.</p>
+                        <p>Created a comprehensive documentation library for our development team, reducing onboarding time by 50%.</p>
+                     </div>
+                   </div>
+                   <div class="area bg-gray-50 rounded-xl p-3 my-4 shadow-md">
+                     <h4 class="company_name text-lg">Don't Know Pvt. Ltd.</h4>
+                     <h2 class="position bold text-2xl bg-violet-700 inline-block px-1 text-white">Web Developer</h2>
+                     <p class="duration"><span>14 Oct 2022</span> - <span>22 Feb 2023</span></p>
+                     <hr>
+                     <div class="mt-3"> 
+                        <p>Developed a new feature for our company's flagship product, resulting in a 15% increase in user engagement.</p>
+                        <p>Led a team of developers to successfully migrate our legacy system to a cloud-based architecture, saving the company $50,000 per year.</p>
+                        <p>Implemented a new machine learning algorithm that improved our product's accuracy by 10%.</p>
+                        <p>Created a comprehensive documentation library for our development team, reducing onboarding time by 50%.</p>
+                     </div>
+                   </div>
+                   <div class="area bg-gray-50 rounded-xl p-3 my-4 shadow-md">
+                     <h4 class="company_name text-lg">Fake Pvt. Ltd.</h4>
+                     <h2 class="position bold text-2xl bg-violet-700 inline-block px-1 text-white">Web Developer Intern</h2>
+                     <p class="duration"><span>17 May 2022</span> - <span>18 Aug 2022</span></p>
+                     <hr>
+                     <div class="mt-3"> 
+                        <p>Developed a new feature for our company's flagship product, resulting in a 15% increase in user engagement.</p>
+                        <p>Led a team of developers to successfully migrate our legacy system to a cloud-based architecture, saving the company $50,000 per year.</p>
+                        <p>Implemented a new machine learning algorithm that improved our product's accuracy by 10%.</p>
+                        <p>Created a comprehensive documentation library for our development team, reducing onboarding time by 50%.</p>
+                     </div>
+                   </div>
+                </div>
+            </div>
+            <div class="education relative">
+                <div class="shadow-lg bg-gray-100 rounded-lg p-5 mt-6">
+                    <div class="tag">Education</div>
+                    <div class="edu flex flex-wrap gap-5">
+                        <div class="area bg-gray-50 rounded-xl p-3 my-4 shadow-md">
+                            <h4 class="clg_name text-lg bold">Bakwass Institute Of Gyanpur</h4>
+                            <h2 class="course bold text-2xl bg-violet-700 inline-block px-1 text-white">Masters in AI/ML</h2>
+                            <p class="duration"><span>05 Mar 2023</span> - <span>13 Oct 2026</span></p>
+                          </div>
+                        <div class="area bg-gray-50 rounded-xl p-3 my-4 shadow-md">
+                            <h4 class="clg_name text-lg bold">International Institute Of Gyanpur</h4>
+                            <h2 class="course bold text-2xl bg-violet-700 inline-block px-1 text-white">Bachelor's in AI/ML</h2>
+                            <p class="duration"><span>05 Mar 2020</span> - <span>13 Oct 2023</span></p>
+                          </div>
+                        <div class="area bg-gray-50 rounded-xl p-3 my-4 shadow-md">
+                            <h4 class="clg_name text-lg bold">Funday School</h4>
+                            <h2 class="course bold text-2xl bg-violet-700 inline-block px-1 text-white break-words">12<sup>th</sup> - Science</h2>
+                            <p class="duration"><span>05 Mar 2019</span> - <span>13 Oct 2020</span></p>
+                          </div>
+                        <div class="area bg-gray-50 rounded-xl p-3 my-4 shadow-md">
+                            <h4 class="clg_name text-lg">Funday School</h4>
+                            <h2 class="course bold text-2xl bg-violet-700 inline-block px-1 text-white">10<sup>th</sup></h2>
+                            <p class="duration"><span>05 Mar 2017</span> - <span>13 Oct 2018</span></p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        </div>
+
+     <!-- projects section -->
+        <div class="container w-[80%] m-auto mt-5" id="projects">
+            <div class="border-dotted border-black border-4 px-10 py-5 my-4">
+              <h1 class="text-7xl uppercase text-center">projects</h1>
+          </div>
+           <div class="content card-slider py-10 px-3">
+              <div class="cards w-[450px] h-auto bg-violet-600 rounded-lg p-4 overflow-hidden">
+                <img src="img/p-1.jpg" alt="" class="h-[200px] w-[350px] rounded-xl hover:scale-105">
+                 <div class="card-body px-3 pt-5 space-y-4">
+                    <h1 class="text-2xl">Project 1</h1>
+                    <p class="text-sm text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate eius mollitia sit quod rerum nisi dolorum odio, laudantium possimus inventore atque voluptas maiores.</p>
+                    <div class="tech flex flex-wrap space-x-2">
+                        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" class="w-[30px]">
+                    </div>
+                    <div class="btns flex space-x-4">
+                        <p class="picons"><i class="fa-brands fa-github"></i></p>
+                        <p class="picons"><i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="cards w-[450px] h-auto bg-violet-600 rounded-lg p-4 overflow-hidden">
+                <img src="img/p-2.jpg" alt="" class="h-[200px] w-[350px] rounded-xl hover:scale-105">
+                 <div class="card-body px-3 pt-5 space-y-4">
+                    <h1 class="text-2xl">Project 2</h1>
+                    <p class="text-sm text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate eius mollitia sit quod rerum nisi dolorum odio, laudantium possimus inventore atque voluptas maiores.</p>
+                    <div class="tech flex flex-wrap space-x-2">
+                        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" class="w-[30px]">
+                    </div>
+                    <div class="btns flex space-x-4">
+                        <p class="picons"><i class="fa-brands fa-github"></i></p>
+                        <p class="picons"><i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="cards w-[450px] h-auto bg-violet-600 rounded-lg p-4 overflow-hidden">
+                <img src="img/p-3.avif" alt="" class="h-[200px] w-[350px] rounded-xl hover:scale-105">
+                 <div class="card-body px-3 pt-5 space-y-4">
+                    <h1 class="text-2xl">Project 3</h1>
+                    <p class="text-sm text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate eius mollitia sit quod rerum nisi dolorum odio, laudantium possimus inventore atque voluptas maiores.</p>
+                    <div class="tech flex flex-wrap space-x-2">
+                        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" class="w-[30px]">
+                    </div>
+                    <div class="btns flex space-x-4">
+                        <p class="picons"><i class="fa-brands fa-github"></i></p>
+                        <p class="picons"><i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="cards w-[450px] h-auto bg-violet-600 rounded-lg p-4 overflow-hidden">
+                <img src="img/p-4.jpg" alt="" class="h-[200px] w-[350px] rounded-xl hover:scale-105">
+                 <div class="card-body px-3 pt-5 space-y-4">
+                    <h1 class="text-2xl">Project 4</h1>
+                    <p class="text-sm text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate eius mollitia sit quod rerum nisi dolorum odio, laudantium possimus inventore atque voluptas maiores.</p>
+                    <div class="tech flex flex-wrap space-x-2">
+                        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" class="w-[30px]">
+                    </div>
+                    <div class="btns flex space-x-4">
+                        <p class="picons"><i class="fa-brands fa-github"></i></p>
+                        <p class="picons"><i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="cards w-[450px] h-auto bg-violet-600 rounded-lg p-4 overflow-hidden">
+                <img src="img/p-5.avif" alt="" class="h-[200px] w-[350px] rounded-xl hover:scale-105">
+                 <div class="card-body px-3 pt-5 space-y-4">
+                    <h1 class="text-2xl">Project 5</h1>
+                    <p class="text-sm text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate eius mollitia sit quod rerum nisi dolorum odio, laudantium possimus inventore atque voluptas maiores.</p>
+                    <div class="tech flex flex-wrap space-x-2">
+                        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" class="w-[30px]">
+                    </div>
+                    <div class="btns flex space-x-4">
+                        <p class="picons"><i class="fa-brands fa-github"></i></p>
+                        <p class="picons"><i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="cards w-[450px] h-auto bg-violet-600 rounded-lg p-4 overflow-hidden">
+                <img src="img/p-6.jpg" alt="" class="h-[200px] w-[350px] rounded-xl hover:scale-105">
+                 <div class="card-body px-3 pt-5 space-y-4">
+                    <h1 class="text-2xl">Project 6</h1>
+                    <p class="text-sm text-gray-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cupiditate eius mollitia sit quod rerum nisi dolorum odio, laudantium possimus inventore atque voluptas maiores.</p>
+                    <div class="tech flex flex-wrap space-x-2">
+                        <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="" class="w-[30px]">
+                        <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="" class="w-[30px]">
+                    </div>
+                    <div class="btns flex space-x-4">
+                        <p class="picons"><i class="fa-brands fa-github"></i></p>
+                        <p class="picons"><i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+          </div>
+
+          <!-- Testimonial section -->
+            
+        <div class="container w-[80%] m-auto mt-5" id="testimonial">
+            <div class="border-dotted border-black border-4 px-10 py-5 my-4">
+              <h1 class="text-7xl uppercase text-center">Testimonial</h1>
+          </div>
+          <div class="content testimonial-slider py-10 px-3">
+             <div class="test_card w-full flex items-center space-x-5 bg-gray-100 rounded-xl shadow-md hover:scale-105 transition-all duration-300 ease-in overflow-hidden">
+                <div class="leftside flex space-x-4 bg-violet-500 text-white">
+                    <img src="img/person-1.jpg" alt="img" class="h-full w-[130px]">
+                    <div class="pt-4">
+                    <h1 class="bold bg-violet-600 text-white px-1 inline-block text-2xl">Michael Johnson</h1>
+                    <p class="text-sm font-semibold">Founder of Tech Innovations</p>
+                    <div class="social_icons flex mt-4 space-x-6">
+                        <p class="sicons"><i class="fa-brands fa-x-twitter"></i></p>
+                        <p class="sicons"><i class="fa-brands fa-linkedin"></i></p>
+                        <p class="sicons"><i class="fa-brands fa-instagram"></i></p>
+                    </div>
+                </div>
+                </div>
+                <hr>
+
+                <div class="rightside px-4 py-5">
+                    <p class="feedback">
+                        <span class="text-4xl font-bold">&OpenCurlyDoubleQuote;</span>  Abhilash was instrumental in developing our new e-commerce platform. Their expertise in [specific skill, e.g., React, Node.js] was invaluable. The platform is fast, user-friendly, and has significantly boosted our online sales.
+                    </p>
+                </div>
+             </div>
+             <div class="test_card w-full flex items-center space-x-5 bg-gray-100 rounded-xl shadow-md hover:scale-105 transition-all duration-300 ease-in overflow-hidden">
+                <div class="leftside flex space-x-4 bg-violet-500 text-white">
+                    <img src="img/person-3.jpg" alt="img" class="h-full w-[130px]">
+                    <div class="pt-4">
+                    <h1 class="bold bg-violet-600 text-white px-1 inline-block text-2xl">Emily Davis</h1>
+                    <p class="text-sm font-semibold">Owner of Small Business Solutions</p>
+                    <div class="social_icons flex mt-4 space-x-6">
+                        <p class="sicons"><i class="fa-brands fa-x-twitter"></i></p>
+                        <p class="sicons"><i class="fa-brands fa-linkedin"></i></p>
+                        <p class="sicons"><i class="fa-brands fa-instagram"></i></p>
+                    </div>
+                </div>
+                </div>
+                <hr>
+
+                <div class="rightside px-4 py-5">
+                    <p class="feedback">
+                        <span class="text-4xl font-bold">&OpenCurlyDoubleQuote;</span>  We hired Abhilash to build a custom mobile app for our business. They were incredibly responsive and patient, guiding us through the entire process. The app is now a major part of our success.
+                    </p>
+                </div>
+             </div>
+             <div class="test_card w-full flex items-center space-x-5 bg-gray-100 rounded-xl shadow-md hover:scale-105 transition-all duration-300 ease-in overflow-hidden">
+                <div class="leftside flex space-x-4 bg-violet-500 text-white">
+                    <img src="img/person-2.jpg" alt="img" class="h-full w-[130px]">
+                    <div class="pt-4">
+                    <h1 class="bold bg-violet-600 text-white px-1 inline-block text-2xl">Jane Smith</h1>
+                    <p class="text-sm font-semibold">Marketing Manager at Global Solutions</p>
+                    <div class="social_icons flex mt-4 space-x-6">
+                        <p class="sicons"><i class="fa-brands fa-x-twitter"></i></p>
+                        <p class="sicons"><i class="fa-brands fa-linkedin"></i></p>
+                        <p class="sicons"><i class="fa-brands fa-instagram"></i></p>
+                    </div>
+                </div>
+                </div>
+                <hr>
+
+                <div class="rightside px-4 py-5">
+                    <p class="feedback">
+                        <span class="text-4xl font-bold">&OpenCurlyDoubleQuote;</span>  Abhilash is a true professional. They exceeded our expectations and provided top-notch service.
+                    </p>
+                </div>
+             </div>
+             <div class="test_card w-full flex items-center space-x-5 bg-gray-100 rounded-xl shadow-md hover:scale-105 transition-all duration-300 ease-in overflow-hidden">
+                <div class="leftside flex space-x-4 bg-violet-500 text-white">
+                    <img src="img/person-4.jpg" alt="img" class="h-full w-[130px]">
+                    <div class="pt-4">
+                    <h1 class="bold bg-violet-600 text-white px-1 inline-block text-2xl">Alex Turner</h1>
+                    <p class="text-sm font-semibold">Marketing Director at Global Enterprises</p>
+                    <div class="social_icons flex mt-4 space-x-6">
+                        <p class="sicons"><i class="fa-brands fa-x-twitter"></i></p>
+                        <p class="sicons"><i class="fa-brands fa-linkedin"></i></p>
+                        <p class="sicons"><i class="fa-brands fa-instagram"></i></p>
+                    </div>
+                </div>
+                </div>
+                <hr>
+
+                <div class="rightside px-4 py-5">
+                    <p class="feedback">
+                     <span class="text-4xl font-bold">&OpenCurlyDoubleQuote;</span> We had an incredibly tight deadline, but Abhilash delivered the project ahead of schedule. Their efficiency and dedication to the task were truly remarkable. I would highly recommend them to anyone in need of a reliable and skilled developer.
+                    </p>
+                </div>
+             </div>
+    
+          </div>
+          </div>
+
+          <!-- Contact section -->
+          <div class="container w-[80%] m-auto mt-5 py-10" id="contact">
+            <div class="border-dotted border-black border-4 px-10 py-5 my-4">
+              <h1 class="text-7xl uppercase text-center">Contact Me</h1>
+          </div>
+          <div class="content py-10">
+            <div class="flex space-x-5 items-center bg-violet-500 py-10 rounded-xl shadow-lg overflow-hidden">
+            <div class="w-[40%] text-white px-5 space-y-3">
+                <h3 class="uppercase text-4xl bold">get in touch</h3>
+                <p><span class="icons"><i class="fa-solid fa-envelope"></i></span> <span>pgr.abhilash@dev.com</span></p>
+                <p><span><i class="fa-solid fa-phone"></i></span> <span>+11 21421222</span></p>
+                <p><span><i class="fa-solid fa-globe"></i></span> <span>pgrabhilash.com</span></p>
+            </div>
+            <form class="w-[60%] bg-black space-y-4 px-10 py-5 rounded-s-xl shadow-lg">
+                <div class="flex flex-col space-y-2">
+                    <label for="name" class="text-lg bold text-white">Fullname</label>
+                    <input type="text" class="inputarea" placeholder="Fullname" id="fullname" name="fullname">
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <label for="email" class="text-lg bold text-white">Email</label>
+                    <input type="email" class="inputarea" placeholder="Email" id="email" name="email">
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <label for="message" class="text-lg bold text-white">Message</label>
+                    <textarea rows="6" class="textarea" type="text" placeholder="Type your Message..." id="message" name="message"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="uppercase bg-violet-500 text-white px-10 py-3 rounded-lg w-2/4 font-semibold hover:scale-95 hover:bg-violet-400"><i class="fa-solid fa-paper-plane"></i> send</button>
+                </div>
+            </form>
+        </div>
+          </div>
+          </div>
+      </section>
+    </main>
+    
+    <footer class="bg-violet-300 h-12 flex justify-center items-center">
+      <h2 class="bold">&copy; 2025 | Developed By Abhilash</h2>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/index.js" type="module"></script>
+</body>
+</html>
